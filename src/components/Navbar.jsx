@@ -63,11 +63,11 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>Tech Reside</Logo>
+          <Logo>techreside.</Logo>
         </Center>
         <Right>
-          <MenuItem>Register</MenuItem>
-          <MenuItem>Login</MenuItem>
+          <MenuItem>REGISTER</MenuItem>
+          <MenuItem>LOGIN</MenuItem>
           <MenuItem>
           <Badge badgeContent={4} color="primary">
             <ShoppingCartOutlined/>
