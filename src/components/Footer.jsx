@@ -67,6 +67,18 @@ const ContactItem = styled.div`
     align-items: center;
 `;
 
+const Payments = styled.div`
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+`;
+
+const PaymentImg = styled.img`
+    max-height: 50px;
+    max-width: 50px;
+    padding-right: 5px;
+`;
+
 const Footer = () => {
   return (
     <Container>
@@ -117,6 +129,13 @@ const Footer = () => {
                 <MailOutline style={{ marginRight: "10px"}}/>
                 store@techreside.com
             </ContactItem>
+            <Payments>
+                <PaymentImg src="https://mpng.subpng.com/20180330/jdq/kisspng-unified-payments-interface-bhim-national-payments-wallets-5abdf47f14fc64.488606551522398335086.jpg"/>
+                <PaymentImg src="https://cdn2.iconfinder.com/data/icons/social-icons-color/512/paytm-512.png"/>
+                <PaymentImg src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png"/>
+                <PaymentImg src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/1200px-MasterCard_Logo.svg.png"/>
+                <PaymentImg src="https://1000logos.net/wp-content/uploads/2021/04/Paypal-logo.png"/>
+            </Payments>
         </Right>
     </Container>
   )
