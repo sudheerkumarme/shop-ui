@@ -1,4 +1,5 @@
 import styled from "@emotion/styled"
+import { mobile } from "../responsive";
 
 const Container = styled.div`
   width: 100vw;
@@ -19,6 +20,7 @@ const Wrapper = styled.div`
     width: 25%;
     padding: 20px;
     background-color: white;
+    ${mobile({ width: "75%" })}
 `;
 
 const Title = styled.h1`
@@ -45,7 +47,14 @@ const Button = styled.button`
     background-color: teal;
     color: white;
     cursor: pointer;
-    margin-bottom: 10px;
+    margin: auto;
+`;
+
+const LinkContainer = styled.div`
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 const Link = styled.a`
@@ -64,8 +73,10 @@ const Login = () => {
           <Input placeholder="username" />
           <Input placeholder="password" />
           <Button>LOGIN</Button>
-          <Link>DON'T REMEMBER YOUR PASSWORD?</Link>
-          <Link>CREATE A NEW ACCOUNT</Link>
+          <LinkContainer>
+            <Link>DON'T REMEMBER YOUR PASSWORD?</Link>
+            <Link>CREATE A NEW ACCOUNT</Link>
+          </LinkContainer>
         </Form>
       </Wrapper>
     </Container>
