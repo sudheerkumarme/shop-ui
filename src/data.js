@@ -1,21 +1,21 @@
 export const sliderItems = [
     {
         id: 1,
-        img: "https://objectstorage.ap-hyderabad-1.oraclecloud.com/p/3oLUc8X5RKJOhejZ4W6hBQjOZ92j0Mupx8LHZiempu2T0ywC4pzhJHVlTOU-1rQI/n/axlzkw7dix0m/b/dev/o/slideImage-removebg.png",
+        img: "https://objectstorage.ap-hyderabad-1.oraclecloud.com/p/jCIY-zdiXFbo_H8dMLIkwsILO5Ge2hzoLrXk61Dc0kFCcg62NBZ-WPwyZXcIMnW9/n/axlzkw7dix0m/b/dev/o/slideImage-removebg.png",
         title: "SUMMER SALE",
         desc: "Don't compromise on style! Get flat 30% off on new arrivals.",
         bg: "f5fafd"
     },
     {
         id: 2,
-        img: "https://objectstorage.ap-hyderabad-1.oraclecloud.com/p/3oLUc8X5RKJOhejZ4W6hBQjOZ92j0Mupx8LHZiempu2T0ywC4pzhJHVlTOU-1rQI/n/axlzkw7dix0m/b/dev/o/slideImage-removebg.png",
+        img: "https://objectstorage.ap-hyderabad-1.oraclecloud.com/p/jCIY-zdiXFbo_H8dMLIkwsILO5Ge2hzoLrXk61Dc0kFCcg62NBZ-WPwyZXcIMnW9/n/axlzkw7dix0m/b/dev/o/slideImage-removebg.png",
         title: "AUTUMN SALE",
         desc: "Don't compromise on style! Get flat 30% off on new arrivals.",
         bg: "fcf1ed"
     },
     {
         id: 3,
-        img: "https://objectstorage.ap-hyderabad-1.oraclecloud.com/p/3oLUc8X5RKJOhejZ4W6hBQjOZ92j0Mupx8LHZiempu2T0ywC4pzhJHVlTOU-1rQI/n/axlzkw7dix0m/b/dev/o/slideImage-removebg.png",
+        img: "https://objectstorage.ap-hyderabad-1.oraclecloud.com/p/jCIY-zdiXFbo_H8dMLIkwsILO5Ge2hzoLrXk61Dc0kFCcg62NBZ-WPwyZXcIMnW9/n/axlzkw7dix0m/b/dev/o/slideImage-removebg.png",
         title: "WINTER SALE",
         desc: "Don't compromise on style! Get flat 30% off on new arrivals.",
         bg: "fbf0f4"
@@ -26,17 +26,20 @@ export const categories = [
     {
         id: 1,
         img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-        title: "SHIRT STYLE!"
+        title: "SHIRT STYLE!",
+        cat: "women"
     },
     {
         id: 2,
         img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-        title: "LOUNGWEAR LOVE"
+        title: "LOUNGWEAR LOVE",
+        cat: "men"
     },
     {
         id: 3,
         img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-        title: "LIGHT JACKETS"
+        title: "LIGHT JACKETS",
+        cat: "coat"
     }
 ];
 
